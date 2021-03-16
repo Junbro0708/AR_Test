@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Face Tracking/FaceFox.unity
+- path: Assets/Scenes/Face Tracking/FaceMesh.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
