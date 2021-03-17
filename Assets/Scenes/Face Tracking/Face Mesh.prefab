@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8494798768946778989}
   - component: {fileID: 5686569704112872212}
   - component: {fileID: 944728668181186434}
+  - component: {fileID: 5249937242562912769}
   m_Layer: 0
   m_Name: Face Mesh
   m_TagString: Untagged
@@ -121,3 +122,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &5249937242562912769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8150572911389782110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60597816128084513a60a1b4ebbc634b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialForIOS:
+  - {fileID: 2100000, guid: 309fb0537088641dabfa8f59fd2e8b82, type: 2}

@@ -103,6 +103,7 @@
     <Compile Include="Assets\Plugin\AR_Foundation_Sample\Scripts\ScreenSpaceJointVisualizer.cs" />
     <Compile Include="Assets\Plugin\AR_Foundation_Sample\Scripts\SupportChecker.cs" />
     <Compile Include="Assets\Plugin\AR_Foundation_Sample\Scripts\TestBodyAnchorScale.cs" />
+    <Compile Include="Assets\Scenes\Face Tracking\ApplyMaterialForIOS.cs" />
     <None Include="Assets\Plugin\AR_Foundation_Sample\Shaders\HumanStencil.shader" />
     <None Include="Assets\Plugin\AugmentedFaces\Materials\Shaders\AugmentedFaceOccluder.shader" />
     <None Include="Assets\Plugin\AR_Foundation_Sample\Scenes\ImageTracking\Prefabs\FlowerPrefab\Shaders\Vegetation.shader" />

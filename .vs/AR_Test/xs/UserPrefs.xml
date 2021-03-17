@@ -1,21 +1,23 @@
 ﻿<Properties StartupConfiguration="{B6D2733B-934B-2F29-9E6A-B5E922CDCCD8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugin/AR_Foundation_Sample/Scenes/FaceTracking/DisplayFaceInfo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Face Tracking/ApplyMaterialForIOS.cs">
     <Files>
       <File FileName="Assets/Plugin/AR_Foundation_Sample/Scenes/FaceTracking/DisplayFaceInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/Face Tracking/ApplyMaterialForIOS.cs" Line="15" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AR_Test" expanded="True">
-            <Node name="Assets" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
               <Node name="Plugin" expanded="True">
                 <Node name="AR_Foundation_Sample" expanded="True">
                   <Node name="Scenes" expanded="True">
-                    <Node name="FaceTracking" expanded="True">
-                      <Node name="DisplayFaceInfo.cs" selected="True" />
-                    </Node>
+                    <Node name="FaceTracking" expanded="True" />
                   </Node>
                 </Node>
+              </Node>
+              <Node name="Scenes" expanded="True">
+                <Node name="Face Tracking" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -25,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="258c4bb9-11a0-4167-9856-33e55801ace0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e36056e1-e5a6-4755-9603-cc285937d927" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
