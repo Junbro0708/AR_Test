@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Face Tracking/FaceFox.unity
     guid: 4c56fb3f2d04e46c298d48cb55ffe1ce
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Face Tracking/FaceMesh.unity
     guid: 4d33e90474e1e4529b17a2f855b5b9eb
+  - enabled: 1
+    path: Assets/Scenes/Face Tracking/CustomFace.unity
+    guid: 650eb851cad5c46a28d3775ad790815b
   m_configObjects: {}
