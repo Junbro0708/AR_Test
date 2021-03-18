@@ -20,7 +20,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/2_Image Tracking/Image Tracking.unity
     guid: 6f4502073cbdd40648e3214015dbcc69
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/3_BodyTracking/BodyTracking.unity
     guid: 5f15af0dc1e0344ddb7b08f98a2341ca
+  - enabled: 0
+    path: Assets/Scenes/4_Tracked/Tracked.unity
+    guid: 92ff7a2effbd84813a4a262ead6efa57
+  - enabled: 1
+    path: Assets/Scenes/5_Graduation/Graduation.unity
+    guid: cc7a5a970b3af44178206cdddd3dcfa1
   m_configObjects: {}
