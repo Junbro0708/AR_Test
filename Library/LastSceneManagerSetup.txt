@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/2_Image Tracking/Image Tracking.unity
+- path: Assets/Scenes/3_BodyTracking/BodyTracking.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

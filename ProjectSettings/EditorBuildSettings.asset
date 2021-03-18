@@ -17,7 +17,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/1_Face Tracking/CustomFace.unity
     guid: 650eb851cad5c46a28d3775ad790815b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/2_Image Tracking/Image Tracking.unity
     guid: 6f4502073cbdd40648e3214015dbcc69
+  - enabled: 1
+    path: Assets/Scenes/3_BodyTracking/BodyTracking.unity
+    guid: 5f15af0dc1e0344ddb7b08f98a2341ca
   m_configObjects: {}
