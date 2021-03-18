@@ -1,17 +1,19 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - GoToURL
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
-    - UnityEngine.XR.ARFoundation.ARFace
-    - UnityEngine.XR.ARFoundation.ARFaceManager
-    - UnityEngine.XR.ARFoundation.ARFaceMeshVisualizer
     - UnityEngine.XR.ARFoundation.ARInputManager
     - UnityEngine.XR.ARFoundation.ARPoseDriver
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    - UnityEngine.XR.ARFoundation.ARTrackedImageManager
+    Unity.XR.ARSubsystems.dll:
+    - UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -22,8 +24,17 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/Face Tracking/CustomFace.unity:
+    Assets/Scenes/2_Image Tracking/Image Tracking.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -32,43 +43,63 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 64
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 11218}
+    - Class: 114
       Script: {instanceID: 11234}
     - Class: 114
-      Script: {instanceID: 12098}
+      Script: {instanceID: 11432}
     - Class: 114
-      Script: {instanceID: 12708}
+      Script: {instanceID: 11482}
     - Class: 114
-      Script: {instanceID: 12884}
+      Script: {instanceID: 12012}
     - Class: 114
-      Script: {instanceID: 13106}
+      Script: {instanceID: 12176}
     - Class: 114
-      Script: {instanceID: 13146}
+      Script: {instanceID: 12600}
     - Class: 114
-      Script: {instanceID: 13276}
+      Script: {instanceID: 12794}
     - Class: 114
-      Script: {instanceID: 13460}
+      Script: {instanceID: 12858}
     - Class: 114
-      Script: {instanceID: 13610}
+      Script: {instanceID: 12886}
+    - Class: 114
+      Script: {instanceID: 13108}
+    - Class: 114
+      Script: {instanceID: 13246}
+    - Class: 114
+      Script: {instanceID: 13278}
+    - Class: 114
+      Script: {instanceID: 13462}
+    - Class: 114
+      Script: {instanceID: 13612}
+    - Class: 114
+      Script: {instanceID: 13646}
+    - Class: 114
+      Script: {instanceID: 13726}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -413,6 +444,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: AREnvironmentProbeManager
+  - hash:
+      serializedVersion: 2
+      Hash: c0d5db81293a91a6ef67266e152d1483
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GoToURL
   - hash:
       serializedVersion: 2
       Hash: ee81144d213302d21b603298f19b15e5
@@ -979,5 +1016,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 9
   scenePathNames:
-  - Assets/Scenes/Face Tracking/CustomFace.unity
-  playerPath: /Users/JUN_BRO/Desktop/custom1
+  - Assets/Scenes/2_Image Tracking/Image Tracking.unity
+  playerPath: /Users/JUN_BRO/Desktop/image
