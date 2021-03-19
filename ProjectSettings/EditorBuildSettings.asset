@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/5_Graduation/Graduation.unity
     guid: cc7a5a970b3af44178206cdddd3dcfa1
+  - enabled: 0
+    path: Assets/Scenes/5_Graduation/Real.unity
+    guid: 3ea2a5ada86234a7283facb05983285f
   m_configObjects: {}

@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{B6D2733B-934B-2F29-9E6A-B5E922CDCCD8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/4_Tracked/TrackedImageInfoManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/5_Graduation/ImageRecognitionExample.cs">
     <Files>
       <File FileName="Assets/Plugin/AR_Foundation_Sample/Scenes/FaceTracking/DisplayFaceInfo.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/2_Image Tracking/GoToURL.cs" Line="12" Column="54" />
+      <File FileName="Assets/Scenes/2_Image Tracking/GoToURL.cs" />
       <File FileName="Assets/Scenes/4_Tracked/TrackedImageInfoManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/5_Graduation/ImageRecognitionExample.cs" Line="32" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,15 +14,16 @@
               <Node name="Plugin" expanded="True">
                 <Node name="AR_Foundation_Sample" expanded="True">
                   <Node name="Scenes" expanded="True">
-                    <Node name="FaceTracking" expanded="True">
-                      <Node name="DisplayFaceInfo.cs" selected="True" />
-                    </Node>
+                    <Node name="FaceTracking" expanded="True" />
                   </Node>
                 </Node>
               </Node>
               <Node name="Scenes" expanded="True">
                 <Node name="2_Image Tracking" expanded="True" />
                 <Node name="4_Tracked" expanded="True" />
+                <Node name="5_Graduation" expanded="True">
+                  <Node name="ImageRecognitionExample.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -31,7 +33,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="628605f5-0c48-4f7e-b619-103120775a44" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b19f9f70-a228-4e72-b129-b5d9c86ef093" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
