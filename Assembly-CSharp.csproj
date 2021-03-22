@@ -107,6 +107,9 @@
     <Compile Include="Assets\Scenes\2_Image Tracking\GoToURL.cs" />
     <Compile Include="Assets\Scenes\4_Tracked\TrackedImageInfoManager.cs" />
     <Compile Include="Assets\Scenes\5_Graduation\ImageRecognitionExample.cs" />
+    <Compile Include="Assets\Scenes\7_BoxMoving\ComponentTest.cs" />
+    <Compile Include="Assets\Scenes\7_BoxMoving\PlaceOnPlane.cs" />
+    <Compile Include="Assets\Scenes\7_BoxMoving\PositionVisualizer.cs" />
     <None Include="Assets\Plugin\AR_Foundation_Sample\Shaders\HumanStencil.shader" />
     <None Include="Assets\Plugin\AugmentedFaces\Materials\Shaders\AugmentedFaceOccluder.shader" />
     <None Include="Assets\Plugin\AR_Foundation_Sample\Scenes\ImageTracking\Prefabs\FlowerPrefab\Shaders\Vegetation.shader" />
